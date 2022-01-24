@@ -1,0 +1,86 @@
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+header {
+    /* eixo principal */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    /* eixo secundario  */
+    align-items: center;
+
+    height: 200px;
+    width: 100%;
+    background-color: black;
+}
+
+.titulo {
+    font-family: impact;
+    font-size: 5em;
+    color: chocolate;
+    text-shadow: 5px 5px 3px rgb(255, 255, 255);
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.349);
+}
+
+nav > div {
+    display: flex;
+    flex-direction: row;
+    width: 15rem;
+    align-self: center;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(59, 56, 53);
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 10px rgb(48, 48, 48);
+}
+
+nav > div :hover{
+    color: cornsilk;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(211, 127, 68);
+    font-size: 2em;
+}
+
+main{
+    height: 75vh;
+    width: 75%;
+    align-self: center;
+    background-color: rgba(210, 105, 30, 0.349);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 150px;
+    width: 90%;
+    background-color: rgb(201, 128, 77);
+    border-radius: 20px;
+    margin-bottom: 5px;
+    align-self: center;
+    box-shadow: -5px -5px 10px rgb(48, 48, 48);
+}
+
+footer > div{
+    font-weight: bold;
+    font-size: 2em;
+}
