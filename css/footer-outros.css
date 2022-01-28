@@ -1,0 +1,39 @@
+footer {
+    display: flex;
+    position: relative;
+    top: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    color: #F24405;
+    margin-bottom: 5px;
+    align-self: center;
+    box-shadow: -5px -5px 10px rgb(48, 48, 48);
+}
+
+footer > div{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.email:hover{
+    color: cornsilk;
+}
+
+.seila{
+    background-color: #F24405;
+    height: 100vh;
+    width: 100%;
+    background-image: #F24405;
+    animation-name: ex;
+    animation-duration: 10s;
+}
+
+@keyframes ex{
+    0% {background-color: white;}
+    100% {background-color: #F25C05;}
+}
+
