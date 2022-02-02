@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sobreMin{
+    padding: 20px;
+    background: no-repeat fixed green;
+    top: 20px;
+    height: 90vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-top:10px ;
+}
+
+.sobreMin h1{
+    height: 100px;
+    font-size:4em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+
+.sobreMin p{
+    color: white;
+    font: 1.5em ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+
+@media(max-width: 650px){
+    .sobreMin{
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sobreMin h1{
+        height: 160px;
+        padding-left: 10%;
+    }
+}

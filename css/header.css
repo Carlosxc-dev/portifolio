@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'alfabet';
+    src: url('../fonts/PLAYFUL\ ALPHABET_demo.otf') format('otf');
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+    outline: rgb(0, 255, 0) solid 5px;
+}
+
+.logo {
+    color: green;
+    font-family: 'alfabet';
+    font-size: 5em;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+
+.logo:hover{
+    text-shadow:3px 3px 5px white;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+a{
+    font: bold 1.2em verdana;
+    text-decoration: none;
+    color: lavender;
+}
+
+a:hover{
+    color: green;
+    transition: 0.5s;
+}
+
+@media(max-width: 650px){
+    ul {
+        display: none;
+    }
+    
+    header{
+        justify-content: center;
+    }
+
+    .logo{
+        margin: 0;
+    }
+}
