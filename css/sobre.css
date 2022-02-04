@@ -35,8 +35,8 @@
     display: block;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: black;
-    animation: nome 2s linear 1s 1 normal;
-    animation-fill-mode: forwards;
+    animation: nome 2s linear 2s 3 reverse;
+    animation-fill-mode: backwards;
 }
 
 .sobreMin ul li{
