@@ -1,7 +1,6 @@
 .contatos{
     display: flex;
-    background-color: green;
-    height: 100vh;
+    height: 50vh;
     flex-flow: column wrap;
     flex-grow: 1;
     justify-content: space-around;

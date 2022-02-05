@@ -1,26 +1,19 @@
 
-
 .sobreMin{
     padding: 20px;
-    background: no-repeat fixed green;
-    top: 20px;
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    margin-top:10px ;
 }
 
-@keyframes nome{
-    0%{right: 0px;}
-    100% {right: calc(100% - 580px); }
-}
 
 .conteiner{
     width: 100%;
     height: 150px;
-    display: block;
-    position: relative;
 }
 
 .sobreMin h1{
@@ -28,18 +21,22 @@
     width: 580px;
     font-size:5em;
     position: absolute;
-    right: 10px;
     display: block;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-    animation: nome 2s linear 2s 3 reverse;
-    animation-fill-mode: backwards;
+    color: rgb(0, 156, 0);
+}
+
+.sobreMin img{
+    position: absolute;
+    right: 60px;
+    border-radius: 50%;
 }
 
 .sobreMin ul li{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2em ;
+    font-weight: bolder;
     display: list-item;
     list-style-type:square;
     margin-left: 50px;

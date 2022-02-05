@@ -4,39 +4,10 @@
 }
 
 .animate{
-    height: 100vh;
-    background-image: url(../img/code.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 10vh;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
 }
 
-.obj{
-    height: 160px;
-    width: 200px;
-    background-color: rgba(0, 0, 0, 0.274);
-    position: absolute;
-    animation-name: animacao;
-    animation-duration: 5s;
-    animation-delay: 0.5s;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-    animation-timing-function: linear;
-}
-
-.texto-animation{
-    height: 200px;
-    width: 100%;
-    color: black;
-    font-family: monospace, Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 9em;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 10;
-}
