@@ -1,13 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 
 .sobreMin{
     padding: 20px;
     background: no-repeat fixed green;
     top: 20px;
-    height: 60vh;
+    height: 100vh;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;

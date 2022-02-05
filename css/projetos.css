@@ -4,6 +4,7 @@
     background-color: black;
     color: black;
     padding: 20px;
+    min-height: 100vh;
 }
 
 .projetos div{

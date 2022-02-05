@@ -4,19 +4,20 @@
 }
 
 .animate{
-    height: 50vh;
-    background-color: black;
+    height: 100vh;
+    background-image: url(../img/code.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-
 }
 
 .obj{
     height: 160px;
     width: 200px;
-    background-color: green;
+    background-color: rgba(0, 0, 0, 0.274);
     position: absolute;
     animation-name: animacao;
     animation-duration: 5s;
