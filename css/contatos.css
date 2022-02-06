@@ -1,12 +1,18 @@
 .contatos{
+    background-color: rgba(0, 0, 0, 0.377);
     display: flex;
     height: 50vh;
     flex-flow: column wrap;
     flex-grow: 1;
     justify-content: space-around;
+    opacity: 0.9;
+    margin-bottom: 50px;
+    box-shadow: 0px 10px 10px black, 0px -10px 10px black;
+
 }
 
 .contatos h1{
+    color: white;
     font-size: 3em;
     height: 100px;
     display: flex;
@@ -22,8 +28,8 @@
 }
 
 .links > a{
-    padding: 20px;
-    border-radius: 10px;
+    padding: 10px;
+    border-radius: 20px;
 
 }
 

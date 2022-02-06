@@ -1,13 +1,2 @@
-@keyframes animacao{
-    0% {left: 0;}
-    100% {left: 90%;}
-}
 
-.animate{
-    height: 10vh;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-}
 
