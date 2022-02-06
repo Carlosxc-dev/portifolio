@@ -6,7 +6,6 @@
         'titulo titulo'
         'texto img';
     background-color: rgba(0, 0, 0, 0.356);
-
 }
 
 .texto{
@@ -45,10 +44,12 @@
     align-items: center;
 }
 
-.titulo{
-    color: rebeccapurple;
+.titulo div{
     font-size: 6em;
     text-align: center;
+    color: rebeccapurple;
+    text-decoration: dashed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
