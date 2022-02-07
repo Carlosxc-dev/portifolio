@@ -52,6 +52,7 @@ a{
 a:hover{
     color: rebeccapurple;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 @media(max-width: 650px){
